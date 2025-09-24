@@ -1,2 +1,2 @@
 # dharma-app-store-website
-This is my app store to present and allow public to download the android apps I build and  they are always appreciate on sharing their feedback on how this app helping them to resolve there real life problem.
+Welcome to my app store, where you can download the Android apps I've built. Your feedback is valuable, and I'd love to hear how these apps are helping you in your daily life.
