@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Alert for Windows - Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-4">
+
+    <!-- Back button -->
+    <div class="w-full max-w-5xl my-4">
+        <a href="index.html" class="flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+            Back to All Apps
+        </a>
+    </div>
+
+    <div class="w-full max-w-5xl bg-white rounded-3xl shadow-2xl p-8 md:p-12 space-y-10">
+        
+        <!-- App Header & Download Link -->
+        <header class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-8 pb-8 border-b border-gray-200">
+            <div class="flex items-center space-x-6">
+                <!-- App Icon Placeholder -->
+                <img src="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/dockee_logo.png" alt="Dockee App Logo" class="w-16 h-16 rounded-2xl">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900">Battery Alert:Desktop Application</h1>
+                    <p class="text-lg text-gray-600">Version 1.0.3</p>
+                </div>
+            </div>
+            <a href="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/dockee-app.apk" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 w-full md:w-auto text-center">
+                Download Installer
+            </a>
+        </header>
+
+        <!-- Description Section -->
+        <section class="space-y-4">
+            <h2 class="text-2xl font-bold text-gray-800">About the App</h2>
+            <div class="app-description">
+  <h2>Battery Alert</h2>
+  <p>
+    Battery Alert is a destop application for Microsoft Windows, It
+    helps you by reminding to unplug charging from sytem/laptop.
+  </p>
+
+  <h3>🔐 Key Features:</h3>
+  <ul>
+    <li>Set alarm for specific percentage</li>
+    <li>Shows key details of system battery</li>
+    <li>option to change alert sound</li>
+    <li>Easy to install and use</li>
+  </ul>
+</div>
+
+            <p class="text-gray-700 leading-relaxed">
+                Note: Modern System/Laptop devices may capable to handle over charging by itself but this is something I built 
+              in year 2019 when I found over heating problem with my old laptop on keep charging cable plugged-in even if it was fully charged
+            </p>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section class="space-y-6">
+            <h2 class="text-2xl font-bold text-gray-800">Screenshots</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Screenshot 1 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/documents_list.jpg" alt="App Screenshot 1" class="w-full h-auto">
+                </div>
+                <!-- Screenshot 2 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/splash_screen.jpg" alt="App Screenshot 2" class="w-full h-auto">
+                </div>
+                <!-- Screenshot 3 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/pin_screen.jpg" alt="App Screenshot 3" class="w-full h-auto">
+                </div>
+                <!-- Screenshot 4 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://raw.githubusercontent.com/dharm4811/app-storage/refs/heads/main/login_screen.jpg" alt="App Screenshot 3" class="w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 text-sm mt-10">
+            <p>&copy; 2025 Your App Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
